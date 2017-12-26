@@ -8,7 +8,7 @@ body {
 }
 h1 {
 	font-size: 3em;
-	font-family: Arial;
+	font-family: Helvetica;
 	color: #ffffff;
 	text-shadow: 2px 5px 10px #000000;
 }
@@ -39,12 +39,12 @@ nav li a:hover {
 }
 .sectionall {
 	text-align: center;
+	width: 100%;
 }
 #landingpage {
 	background-image: url(img/space.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	width: 100%;
 	margin-top: 1%;
 	padding: 50% 0;
 }
@@ -57,6 +57,11 @@ nav li a:hover {
 	padding: 5% 0;
 	width: 50%;
 	margin-left: 25%;
+}
+
+#images {
+
+	padding-top: 5%; 0;
 }
 #icon {
 	width: 40px;
@@ -73,4 +78,59 @@ nav li a:hover {
 img {
     width: 100%;
     height: auto;
+}
+#bangladesh {
+	background-image: url(img/Sylhet.jpg);
+    background-attachment: fixed;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: table;
+}
+.innersection {
+	display: table-cell;
+	vertical-align: middle;
+}
+.header{
+	background-color: rgba(194, 188, 188, 0.76);
+	padding: 2% 0;
+}
+.para{
+	background-color: rgba(194, 188, 188, 0.76);
+	padding-bottom: 2%;
+}
+#dad {
+	background-image: url(img/dad.jpg);
+    background-attachment: fixed;
+    width:30;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: table;
+}
+#test {
+	background-image: url(img/girl.jpg);
+    background-attachment: fixed;
+    width:30;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: table;
+}
+@media screen and (min-width: 600px) {
+	body {
+		background-color: yellow;
+	}
+	p {
+    letter-spacing: 0;
+    line-height: 19px;
+    font-size: 1em;
+    color:  #4d4d4d;
+    padding: 0 10% 0 10%;
+}
+	}
 }
