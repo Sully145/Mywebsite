@@ -4,4 +4,6 @@
 #encapsulate {
   float: left;
   margin-left: 40%;
+  font-weight: bold;
+  font-family: helvetica;
 }

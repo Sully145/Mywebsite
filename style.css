@@ -9,24 +9,31 @@ h1 {
 	text-shadow: 2px 5px 10px #000000;
 }
 h4 {
-	background-color: grey;
-	background-color: rgba(194, 188, 188, 0.76);
+	background-color: rgba(255, 255, 248, 0.7);
 	padding-bottom: 3%;
 	font-size: 1.2em;
+}
+
+h3 {
+	font-family: trebuchet ms;
 }
 p { 
     line-height: 19px;
     font-size: 1em;
-    color:  #4d4d4d;
+    color:  #9f9f9f;
     padding: -10px 20px -10px 20px;
+
 }
 .logo-text{
   font-weight:200;
+  font-family: helvetica;
   font-size: 1em;
   display: inline-block;
   text-decoration:none;
+  font-weight: bold;
   transition:all .25s;
   padding:5px 0px;
+
 }
 .logo-text:hover{
   color:#272727 !important;
@@ -80,10 +87,13 @@ nav ul a:hover{
 	padding: 0 0 2% 0;
 	background-color: #ffffff;
 }
+
 #header {
 	padding: 5% 0;
 	width: 50%;
 	margin-left: 25%;
+	color: #575a65;
+	font-family: trebuchet ms;
 }
 #images {
 	padding-top: 2%; 0;
@@ -119,13 +129,8 @@ img {
 	display: table-cell;
 	vertical-align: middle;
 }
-.header{
-	background-color: rgba(194, 188, 188, 0.76);
-	padding: 0 0;
-}
-.para{
-	background-color: rgba(194, 188, 188, 0.76);
-	padding: 5% 5% 5% 5%;
+.innerinnersection {
+	background-color: rgba(255, 255, 248, 0.7);
 }
 #dad {
 	background-image: url(img/dad.jpg);
