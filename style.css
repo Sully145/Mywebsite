@@ -22,25 +22,51 @@ p {
     line-height: 19px;
     font-size: 1em;
     color:  #4d4d4d;
-    padding: 0 10% 0 10%;
+    padding: -10px 20px -10px 20px;
 }
-nav ul {
-	list-style-type: none;
-    text-align: center;
-    background-color: red;
+.logo-text{
+  font-weight:200;
+  font-size: 1em;
+  display: inline-block;
+  text-decoration:none;
+  transition:all .25s;
+  padding:5px 0px;
 }
-li {
-	display: inline-block;
-	padding: 1%;
+.logo-text:hover{
+  color:#272727 !important;
 }
-nav li a {
-    text-decoration: none;
-    display: block;
-    font-size: 1.6em;
-    color: #ffffff;
+nav{
+  display: block;
+  width: 96%;
+  position:fixed;
+  top:0;
+  transition:all .25s;
+  background:#fff;
 }
-nav li a:hover {
-	color: #000;
+nav ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+  width:100%;
+}
+nav ul li:first-of-type{
+  float:left;
+}
+nav ul li{
+  float:right;
+}
+
+nav ul a{
+  text-decoration: none;
+  color:#a5a5a5;
+  font-size:1em;
+  transition:all .25s;
+  float:right;
+  padding: 5px 5px;
+}
+
+nav ul a:hover{
+  color:#272727;
 }
 .sectionall {
 	text-align: center;
@@ -51,12 +77,13 @@ nav li a:hover {
 	background-size: cover;
 	background-attachment: fixed;
 	margin: 1% 0 5% 0;
-	padding: 37% 0;
+	padding: 260px 0;
 }
 #intro {
-	margin-top: 2%;
+	width: 60%;
+	margin: 2% 20%;
 	padding: 0 0 2% 0;
-	background-color: #e6e6e6;
+	background-color: #ffffff;
 }
 #header {
 	padding: 5% 0;
@@ -136,6 +163,7 @@ img {
     height: 100vh;
     display: table;
     margin-bottom: 2%;
+
 }
 h4 a {
 	color: #000;
@@ -143,7 +171,7 @@ h4 a {
 }
 footer{
   background:#D3D3D3;
-  padding: 10px 0 40px 0;
+  padding: 1% 0 80% 0;
   text-align: center;
 }
 .social {
@@ -173,7 +201,7 @@ footer{
     background-color:#007bb7;
 }
 .social-circle li a {
-    background-color: #99ddff;
+    background-color: darkgrey;
     display:inline-block;
     border-radius:50%;
     width: 30px;
@@ -199,6 +227,10 @@ footer{
     font-size: 1em;
     color:  #4d4d4d;
     padding: 0 10% 0 10%;
+	}
+	nav ul {
+	list-style-type: none;
+    text-align: right;
 	}
 	.flex div {
     width: 49%;
