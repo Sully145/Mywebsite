@@ -4,16 +4,21 @@
 }
 body {
 	padding: 0;
-	margin: 2%;
+	margin: 2% 2% 0 2%;
 }
 h1 {
 	font-size: 3em;
-	font-family: Helvetica;
+	font-family: Bookman;
 	color: #ffffff;
 	text-shadow: 2px 5px 10px #000000;
 }
+h4 {
+	background-color: grey;
+	background-color: rgba(194, 188, 188, 0.76);
+	padding-bottom: 3%;
+	font-size: 1.2em;
+}
 p {
-    letter-spacing: 0;
     line-height: 19px;
     font-size: 1em;
     color:  #4d4d4d;
@@ -45,12 +50,12 @@ nav li a:hover {
 	background-image: url(img/space.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	margin-top: 1%;
-	padding: 50% 0;
+	margin: 1% 0 5% 0;
+	padding: 37% 0;
 }
 #intro {
 	margin-top: 2%;
-	padding-top: 5%;
+	padding: 0 0 2% 0;
 	background-color: #e6e6e6;
 }
 #header {
@@ -58,13 +63,12 @@ nav li a:hover {
 	width: 50%;
 	margin-left: 25%;
 }
-
 #images {
-
-	padding-top: 5%; 0;
+	padding-top: 2%; 0;
 }
 #icon {
 	width: 40px;
+	margin-bottom: -30px;
 }
 .flex {
     display: flex;
@@ -95,11 +99,11 @@ img {
 }
 .header{
 	background-color: rgba(194, 188, 188, 0.76);
-	padding: 2% 0;
+	padding: 0 0;
 }
 .para{
 	background-color: rgba(194, 188, 188, 0.76);
-	padding-bottom: 2%;
+	padding: 5% 5% 5% 5%;
 }
 #dad {
 	background-image: url(img/dad.jpg);
@@ -120,17 +124,87 @@ img {
     background-size: cover;
     height: 100vh;
     display: table;
+    margin-bottom: 2%;
+}
+#mountains{
+	background-image: url(img/mountains.jpg);
+    background-attachment: fixed;
+    width:30;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: table;
+    margin-bottom: 2%;
+}
+h4 a {
+	color: #000;
+	text-decoration: none;
+}
+footer{
+  background:#D3D3D3;
+  padding: 10px 0 40px 0;
+  text-align: center;
+}
+.social {
+    list-style: none;
+    display: inline;
+}
+.social li {
+    display: inline;
+    margin: 0 5px;
+}
+.social a.icoRss:hover {
+    background-color: #F56505;
+}
+.social a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+.social a.icoTwitter:hover {
+    background-color:#33ccff;
+}
+.social a.icoGoogle:hover {
+    background-color:#BD3518;
+}
+.social a.icoVimeo:hover {
+    background-color:#0590B8;
+}
+.social a.icoLinkedin:hover {
+    background-color:#007bb7;
+}
+.social-circle li a {
+    background-color: #99ddff;
+    display:inline-block;
+    border-radius:50%;
+    width: 30px;
+    height: 30px;
+}
+.social-circle li i {
+    line-height:30px;
+}
+.social-circle li a:hover i, .triggeredHover {
+    transform: rotate(360deg);
+   	transition: 1s;
+}
+.social-circle i {
+    color: #000;
+    transition: 1.5s;
 }
 @media screen and (min-width: 600px) {
 	body {
-		background-color: yellow;
+		
 	}
 	p {
-    letter-spacing: 0;
     line-height: 19px;
     font-size: 1em;
     color:  #4d4d4d;
     padding: 0 10% 0 10%;
-}
+	}
+	.flex div {
+    width: 49%;
+    padding-bottom: 1.5%;
+	}
+	#image1 {
+		padding-right: 2%;
 	}
 }
