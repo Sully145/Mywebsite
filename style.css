@@ -66,6 +66,8 @@ nav ul a{
 }
 nav ul a:hover{
   color:#272727;
+  text-decoration: underline;
+  transition: 1s;
 }
 .sectionall {
 	text-align: center;

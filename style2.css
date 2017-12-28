@@ -1,3 +1,9 @@
+h3{
+	color: white;
+	font-size: 1.5em;
+	
+	font-family: trebuchet ms;
+}
 #back {
   float: left;
 }
@@ -9,13 +15,34 @@
 }
 
 #landingpage {
-
 	background-image: url(img/tiger.jpg);
 }
-
-h3{
-	color: white;
-	font-size: 1.5em;
-	text-transform: uppercase;
+#intro {
+	width: 100%;
+	background-color: #ffffff;
+	margin: 0;
+}
+#header {
+	width: 100%;
+	color: #575a65;
 	font-family: trebuchet ms;
+	margin: 0;
+}
+#intro p {
+	font-size: 1.1em;
+	padding: 0 0 2% 0;
+	margin: 0;
+}
+#twoimages {
+	width: 100%;
+	height: auto;
+	padding-bottom: 74%;
+}
+#image1 {
+	width: 48%;
+	float: left;
+}
+#image2 {
+	width: 48%;
+	float: right;
 }
