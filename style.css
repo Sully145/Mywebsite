@@ -18,13 +18,13 @@ h3 {
 }
 p { 
     line-height: 19px;
-    font-size: 1em;
+    font-size: 1em;  
     color:  #9f9f9f;
     padding: -10px 20px -10px 20px;
 }
 .logo-text{
   font-weight:200;
-  font-family: helvetica;
+  font-family: helvetica;                        
   font-size: 0.7em;
   display: inline-block;
   text-decoration:none;
