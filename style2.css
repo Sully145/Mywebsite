@@ -4,6 +4,21 @@ h3{
 	
 	font-family: trebuchet ms;
 }
+
+h4  {
+	font-size: 1.2em;
+}
+
+p {
+	line-height: 19px;
+    font-size: 1em;  
+    color:  #9f9f9f;
+    padding: -10px 20px -10px 20px;
+}
+.sectionall {
+	text-align: center;
+	width: 100%;
+}
 #back {
   float: left;
 }
@@ -33,16 +48,26 @@ h3{
 	padding: 0 0 2% 0;
 	margin: 0;
 }
-#twoimages {
-	width: 100%;
-	height: auto;
-	padding-bottom: 74%;
+#images {
+	padding-top: 2%; 0;
 }
-#image1 {
-	width: 48%;
-	float: left;
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
 }
-#image2 {
-	width: 48%;
-	float: right;
-}
+.flex div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}			
+
+
+@media screen and (min-width: 600px) {
+	body {
+		margin: 1.5%;
+	}	
+
+	h1 {
+		font-size: 3em;
+	}														
