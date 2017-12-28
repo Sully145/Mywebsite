@@ -177,6 +177,7 @@ footer{
 } 
 #footericon {
 	padding: 15% 35%;
+	width: 40px;
 }
 .social {
     list-style: none;
