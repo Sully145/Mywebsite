@@ -1,9 +1,13 @@
 ## Project Title
 ## Encapsulate
 
-### a front web development project which investigates and puts into practice html, css and javascript. 
+### Encapsulate is a philosophical website with thought provoking images and storylines. 
+### There are 4 pages: 
 
-
+* index.html (home)
+* Bangladesh.html
+* father.htnl 
+* afghangirl.html
 
 ## Prerequisites
 ### Latest version of Chrome(preferred), Firefox, Safari,IE
@@ -44,3 +48,14 @@ ass="cool-link"href="#">Read M
 #### Resolution: space has been given between the attribute "cool-link" and href
 
 Index page warnings: 1 
+
+## Mobile Optimization
+### Sections and images change when viewed on a mobile device, the images are no longer parallel to eachother but displayed singularly to fit the size of the smartphone.Also content such as 
+text and paragraphs change accordingly to the screen size. 
+
+## Desktop Optimization 
+### Content changes accordingly to desktop sizes where images are displayed side by side and paragraphs and other such content fits according with padding. 
+
+
+
+
