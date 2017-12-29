@@ -1,12 +1,14 @@
-
 #landing-page {
 	background-image: url(img/gangster.jpg);
 padding: 260px 0;
-}
 
-#intro {
-	background-color: #ffffff;
-	margin: 0;
-	text-align: center;
-	width: 100%;
 }
+.flex div {
+    width: 50%;
+	}
+
+@media screen and (min-width: 600px) {
+	.flex div {
+    width: 25%; 
+	}
+} let
