@@ -12,7 +12,8 @@
 ## Prerequisites
 ### Latest version of Chrome(preferred), Firefox, Safari,IE
 ### Devices: Supports mobile, tablet and desktop devices
-# Usability testing
+
+## Usability testing
 
 ## Participant Name: Muhamed Hussain
 #### Age Group: 18-24
