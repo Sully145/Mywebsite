@@ -5,10 +5,10 @@ body {
 h1 {
 	font-size: 2em;
 	font-family: Bookman;
-	color: #ffffff;
-	
+	color: #ffffff; 
 }
 h4 {
+	font-family: trebuchet ms;
 	padding-bottom: 3%;
 	font-size: 1.2em;
 }
