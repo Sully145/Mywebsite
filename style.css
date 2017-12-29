@@ -2,13 +2,15 @@ body {
 	padding: 0;
 	margin: 2%;
 }
+
+/*CSS style which has been applied to all titles on landing page*/
 h1 {
-	font-size: 2em;
+	font-size: 2em;  
 	font-family: Bookman;
 	color: #ffffff; 
 }
 
-.fade-in {
+.fade-in {            /*class called fade-in which fades in text using CSS keyframes */
 animation: fadeIn 4s;
 }
 	@keyframes fadeIn {
@@ -20,13 +22,14 @@ from {
 	}
 }
 
+/*class which applies a hover underline to text*/
 .cool-link {
     display: inline-block;
     color: #000;
     text-decoration: none;
 }
 
-.cool-link::after {
+.cool-link::after {  
     content: '';
     display: block;
     width: 0;
@@ -57,6 +60,8 @@ p {
     color:  #9f9f9f;
     padding: -10px 20px -10px 20px;
 }
+
+/* this class has been created and applied to all nav bar links*/
 .logo-text{
   font-weight:200;
   font-family: helvetica;                        
@@ -67,9 +72,13 @@ p {
   transition:all .25s;
   padding:5px 0px;
 }
+
+
 .logo-text:hover{
   color:#272727 !important;
 }
+
+
 nav{
   display: block;
   width: 96%;
@@ -111,17 +120,13 @@ nav ul a:hover{
 	width: 100%;
 }
 
+/* landing page image*/
 #landingpage {
 	background-image: url(img/space.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	margin: 1% 0 5% 0;
 	padding: 260px 0;
-}
-
-landingpage:hover {
-    -webkit-filter: blur 4px; /* Chrome, Safari, Opera */
-    filter: blur 4px;
 }
 #intro {
 	width: 80%;
@@ -157,6 +162,8 @@ img {
     width: 100%;
     height: auto;
 }
+
+/*the main content images are formatted using the below properties */
 #bangladesh {
 	background-image: url(img/Sylhet.jpg);
     background-attachment: fixed;
@@ -218,6 +225,7 @@ footer{
   padding: 1% 0 20% 0;
   text-align: center;
 } 
+/*website logo has been styled and is in use in the footer*/
 #footericon {
 	padding: 15% 35%;
 	width: 40px;
@@ -277,7 +285,9 @@ footer p {
 	width: 70%;
 	padding: 10% 15% 0 15%;
 }
-@media screen and (min-width: 600px) {
+
+/* @media rule to define different style rules for tablet/mobile devices */
+@media screen and (min-width: 600px) /
 	body {
 		margin: 1.5%;
 	}
