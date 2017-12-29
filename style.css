@@ -20,7 +20,7 @@ from {
 	to {
 		opacity: 1;
 	}
-}
+}6
 
 /*class which applies a hover underline to text*/
 .cool-link {
@@ -43,14 +43,7 @@ from {
     //transition: width .3s;
 }
 
-img {
-    opacity: 0.5; 
-}
-
-img:hover {
-    opacity: 1.0;
- 
-}
+.flex
 
 
 
@@ -297,7 +290,7 @@ footer p {
 }
 
 /* @media rule to define different style rules for tablet/mobile devices */
-@media screen and (min-width: 600px) /
+@media screen and (min-width: 600px) {
 	body {
 		margin: 1.5%;
 	}
