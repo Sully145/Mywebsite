@@ -17,10 +17,10 @@ animation: fadeIn 4s;
 from {
 	opacity: 0;
 	}
-	to {
+	to {						
 		opacity: 1;
 	}
-}6
+}
 
 /*class which applies a hover underline to text*/
 .cool-link {
@@ -40,7 +40,7 @@ from {
 
 .cool-link:hover::after {
     width: 100%;
-    //transition: width .3s;
+    transition: width .3s;
 }
 
 .flex
@@ -60,7 +60,7 @@ p {
     line-height: 19px;
     font-size: 1em;  
     color:  #9f9f9f;
-    padding: -10px 20px -10px 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 /* this class has been created and applied to all nav bar links*/
@@ -89,7 +89,7 @@ nav{
   transition:all .25s;
   background:#fff;
   text-transform: uppercase;
-  opacity: 50%;
+  opacity: 0.5;
 }
 nav ul{
   list-style: none;
@@ -146,7 +146,7 @@ nav ul a:hover{
 	font-family: trebuchet ms;
 }
 #images {
-	padding-top: 2%; 0;
+	padding-top: 2%;
 }
 .icon {
 	width: 40px;
@@ -190,7 +190,7 @@ img {
 #dad {
 	background-image: url(img/dad.jpg);
     background-attachment: fixed;
-    width:30;
+    width:100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,7 +200,7 @@ img {
 #girl {
 	background-image: url(img/girl.jpg);
     background-attachment: fixed;
-    width:30;
+    width:100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -211,7 +211,7 @@ img {
 #mountains{
 	background-image: url(img/mountains.jpg);
     background-attachment: fixed;
-    width:30;
+    width:100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
