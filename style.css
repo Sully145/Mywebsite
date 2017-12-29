@@ -43,6 +43,15 @@ from {
     //transition: width .3s;
 }
 
+img {
+    opacity: 0.5; 
+}
+
+img:hover {
+    opacity: 1.0;
+ 
+}
+
 
 
 h4 {
@@ -87,6 +96,7 @@ nav{
   transition:all .25s;
   background:#fff;
   text-transform: uppercase;
+  opacity: 50%;
 }
 nav ul{
   list-style: none;
