@@ -41,6 +41,7 @@ from {
 }
 
 
+
 h4 {
 	font-family: trebuchet ms;
 	padding-bottom: 3%;
@@ -108,7 +109,6 @@ nav ul a:hover{
 .sectionall {
 	text-align: center;
 	width: 100%;
-
 }
 
 #landingpage {
@@ -117,6 +117,11 @@ nav ul a:hover{
 	background-attachment: fixed;
 	margin: 1% 0 5% 0;
 	padding: 260px 0;
+}
+
+landingpage:hover {
+    -webkit-filter: blur 4px; /* Chrome, Safari, Opera */
+    filter: blur 4px;
 }
 #intro {
 	width: 80%;
